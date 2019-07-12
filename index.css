@@ -10,3 +10,16 @@ header{
     right:0;
     left:0;
 }
+li a:hover{
+    background-color: yellowgreen;
+    color:#fff
+}
+h1{
+    text-align: center;
+    color: white;
+}
+li a{
+    text-decoration: white;
+    text-transform: uppercase;
+    float: left;   
+}
