@@ -53,3 +53,13 @@ h1{
      margin:15px;
      padding:15px;
  }
+ footer{
+     background-color:rgb(65, 63, 63);
+     height: 60px;
+     text-align: center;
+     font-size: 20px;
+     color:white;
+}
+/* .foot p{
+color:white;
+} */
