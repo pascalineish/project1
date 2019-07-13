@@ -3,7 +3,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: absolute;
-    height:100vh;
+    height:80vh;
     width:100%;
     top:0;
     bottom:0;
@@ -22,6 +22,7 @@ h1{
     position: absolute;
     letter-spacing: 1.8px;
     font-family:Lucida Sans;
+  
 
     
 }
@@ -36,19 +37,20 @@ h1{
  }
  ul li a{
      text-decoration: none;
-     color:#fff;
+     color:rgb(49, 49, 78);
      padding:5px 20px;
      border:1px solid transparent;
      transition:0.7s ease;
  }
  nav #list{
      text-align: right;
-     color: #fff;
+     color: rgb(49, 49, 78);
      text-transform: uppercase;
      font-size: 25px;
+     position: fixed;
  }
  #list>li a{
-     color: white;
+     color:rgb(49, 49, 78);
      text-decoration: none;
      margin:15px;
      padding:15px;
@@ -62,7 +64,7 @@ h1{
 }
 .center{
     display: block;
-    width: 20%;
+    width:20%;
     margin-left: auto;
    margin-right: auto;
 }
@@ -77,14 +79,15 @@ h1{
 #project img{
     height:200px;
     width:220px;
-    box-shadow:5px 6px 6px gray
+    box-shadow:5px 6px 6px gray;
+
     
 }
-#first,#second,#third{
+/*#first,#second,#third{
     display:flex;
     flex-direction:column;
 
-}
+}*/
 #project h3{
     text-align: center;
     text-decoration: initial;
@@ -117,5 +120,16 @@ h1{
 #project p{
     font-size: 20px;
 }
+#project{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.all h2{
+    text-align: center;
+    text-decoration: initial;
+}
+
 
     
