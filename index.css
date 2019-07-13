@@ -3,7 +3,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: absolute;
-    height:90vh;
+    height:70vh;
     width:100%;
     top:0;
     bottom:0;
@@ -60,6 +60,28 @@ h1{
      font-size: 20px;
      color:white;
 }
-/* .foot p{
-color:white;
-} */
+.center{
+    display: block;
+    width: 20%;
+    margin-left: auto;
+   margin-right: auto;
+}
+#about h3{
+    text-align: center;
+    text-decoration-line: initial
+}
+.list img{
+   height: 30px;
+   width: 20px; 
+}
+#project img{
+    height:200px;
+    width:220px;
+    box-shadow:5px 6px 6px gray
+}
+#first,#second{
+    display:flex;
+    flex-direction: row;
+
+}
+    
