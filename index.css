@@ -55,7 +55,7 @@ h1{
  }
  footer{
      background-color:rgb(65, 63, 63);
-     height: 60px;
+     height: 120px;
      text-align: center;
      font-size: 20px;
      color:white;
@@ -79,9 +79,28 @@ h1{
     width:220px;
     box-shadow:5px 6px 6px gray
 }
-#first,#second{
+#first,#second,#third{
     display:flex;
-    flex-direction: row;
+    flex-direction:column;
 
 }
+#project h3{
+    text-align: center;
+    text-decoration: initial;
+}
+#about table{
+    width:600px;
+    height: 100px;
+    text-align: center;
+}
+#about table, td,th{
+    padding:2px;
+    border:2px solid black;
+    border-collapse: collapse;
+}
+#about h4{
+    text-align: center;
+    text-decoration: initial;
+}
+
     
