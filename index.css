@@ -98,12 +98,13 @@ h1{
     text-align: center;
     /* ext-decoration: initial;t */
 }
-#about table{
+.table table{
     width:600px;
-    height:100px;
+    height:280px;
+    text-align: center;
     
 }
-#about table, td,th{
+.table table, td,th{
     padding:2px;
     border:2px solid black;
     border-collapse:collapse;
@@ -139,6 +140,32 @@ h1{
 }
 table{
     text-align: center;
+}
+.butto{
+    position: absolute;
+    top:90%;
+    left:50%;
+    transform:translate(-70%,-300%);
+    text-decoration: none;
+}
+.cont{
+    border:1px solid #fff;
+    padding:10px 30px;
+    font-size: 20px;
+    color:#000;
+    text-decoration: none;
+    width:270px;
+    border-radius: 15px;
+        
+    
+}
+.cont:hover{
+    background-color:palevioletred;
+    color:#fff;
+}
+.cont a{
+    text-decoration:none;
+    color:#000;
 }
 
 
