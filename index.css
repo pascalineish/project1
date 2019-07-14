@@ -62,13 +62,19 @@ h1{
      font-size: 20px;
      color:white;
 }
-.center{
+/*.center{
     display: block;
     width:20%;
     margin-left: auto;
    margin-right: auto;
+}*/
+#about img{
+    float: right;
+    width: 25%;
+    height: 30%;
+    border-radius: 50%;
 }
-#about h2{
+#about,#h3 h3{
     text-align: center;
     text-decoration-line: initial
 }
@@ -76,9 +82,9 @@ h1{
    height: 30px;
    width: 20px; 
 }
-#project img{
+#projects img{
     height:200px;
-    width:220px;
+    width:250px;
     box-shadow:5px 6px 6px gray;
 
     
@@ -88,9 +94,9 @@ h1{
     flex-direction:column;
 
 }*/
-#project h3{
+#projects > h2{
     text-align: center;
-    text-decoration: initial;
+    /* ext-decoration: initial;t */
 }
 #about table{
     width:600px;
@@ -101,7 +107,6 @@ h1{
     padding:2px;
     border:2px solid black;
     border-collapse:collapse;
-    text-align:center;
     background-origin: padding-box;
 }
 
@@ -118,18 +123,22 @@ h1{
     text-align: center;
     font-size: 20px;
 }
-#project p{
+#projects p{
     font-size: 20px;
 }
-#project{
+.project{
     display:flex;
     justify-content: space-between;
+    flex-direction: row;
     margin-right: 5%;
     margin-left: 5%;
 }
 .all h2{
     text-align: center;
     text-decoration: initial;
+}
+table{
+    text-align: center;
 }
 
 
